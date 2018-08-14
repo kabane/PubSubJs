@@ -1,6 +1,6 @@
 # PubSubJs
 
-## EX
+## Example
 ```
 PubSub.subscribe('index/newMessage', function (topic, data) {
     console.log(topic + ':' + data)
